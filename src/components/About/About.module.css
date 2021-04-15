@@ -1,0 +1,40 @@
+
+h1{
+    align-items: center; 
+    font-family: 'Playfair Display', serif;
+ }
+
+ h2{
+    max-width: 300px;  
+    margin-left: 40%;
+    margin-top: 50px;  
+    font-family: 'Playfair Display', serif;
+}
+p{
+    max-width: 800px;
+    margin-left: 20%;
+    font-size: 18px;
+   
+} 
+
+span{
+    color: red;
+}
+li{
+    list-style-type: none;
+    padding: 5px;
+    
+    
+}
+nav{
+     color: blue;
+     margin-left: 30%;
+     font-family: 'Playfair Display', serif;
+}
+ul{
+    display: flex;
+   text-align: center;
+}
+ nav:hover{
+ border-bottom: solid 3px burlywood;
+ }
