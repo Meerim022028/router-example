@@ -3,7 +3,7 @@ import './App.css';
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Contacts from "./components/Contacts/Contacts";
-import By from "./components/By/By";
+import Posts from "./components/Posts/Posts";
 import { NavLink } from 'react-router-dom';
 
 
@@ -23,18 +23,20 @@ function App() {
           <NavLink activeClassName="acive" to="/contacts" >Contacts</NavLink>
         </li>
         <li>
-          <NavLink activeClassName="acive" to="/by" >By</NavLink>
+          <NavLink activeClassName="acive" to="/posts" >Posts</NavLink>
         </li>
+        
       </ul>
 
     <Switch>
       <Route path="/" component={Home} exact/>
       <Route path="/about" component={About}  /> 
       <Route path="/contacts" component={Contacts}  />
-      <Route path="/by" component={By} />
+      <Route path="/posts" component={Posts} />
       <Route path="/" render={() => <h1>Page not Found</h1>} />
        {/* <Redirect to="/" /> returns to the first page*/}
     </Switch>
+    
     </div>
   );
 }
