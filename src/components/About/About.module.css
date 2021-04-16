@@ -22,14 +22,17 @@ span{
 }
 li{
     list-style-type: none;
-    padding: 5px;
+    padding: 0px;
     
     
 }
 nav{
      color: blue;
-     margin-left: 30%;
+     margin-left: 10%;
      font-family: 'Playfair Display', serif;
+     margin-top: 50px;
+     padding: 0px;
+
 }
 ul{
     display: flex;
