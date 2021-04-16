@@ -4,6 +4,8 @@ const FullPost = ({ match }) => {
         <h1>
             Post #{match.params.id}
         </h1>
+
+       
     );
 }
 
